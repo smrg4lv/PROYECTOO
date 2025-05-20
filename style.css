@@ -1,0 +1,48 @@
+
+:root {
+  --azul-oscuro: #1A237E;
+  --verde-neon: #00E676;
+  --gris-claro: #ECEFF1;
+}
+
+body {
+  background-color: var(--gris-claro);
+  color: #333;
+}
+
+.navbar {
+  background-color: var(--azul-oscuro);
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.jumbotron {
+  background-color: var(--azul-oscuro);
+  color: white;
+  text-align: center;
+}
+
+.btn-neon {
+  background-color: var(--verde-neon);
+  color: #000;
+  border: none;
+}
+
+.btn-neon:hover {
+  background-color: #00c965;
+}
+
+.product-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: var(--azul-oscuro);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
